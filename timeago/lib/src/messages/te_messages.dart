@@ -22,7 +22,7 @@ class TeMessages implements LookupMessages {
   @override
   String aDay(int hours) => 'ఒక రోజు';
   @override
-  String days(int days) => '$days రోజులు';
+  String days(int days) => '$days రోజుల';
   @override
   String aboutAMonth(int days) => 'దాదాపు ఒక నెల';
   @override
