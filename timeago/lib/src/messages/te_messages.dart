@@ -45,9 +45,9 @@ class TeShortMessages implements LookupMessages {
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => 'ఇప్పుడు';
+  String lessThanOneMinute(int seconds) => 'ఇప్పుడే';
   @override
-  String aboutAMinute(int minutes) => '1 ని.';
+  String aboutAMinute(int minutes) => '~1 ని.';
   @override
   String minutes(int minutes) => '$minutes ని.';
   @override
